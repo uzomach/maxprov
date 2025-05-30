@@ -15,6 +15,11 @@ path = 'contracts/community_governance.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.container_with_multi_user_inputs]
+path = 'contracts/container_with_multi_user_inputs.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.decentralized_identity]
 path = 'contracts/decentralized_identity.clar'
 clarity_version = 2
