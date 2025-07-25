@@ -25,6 +25,11 @@ path = 'contracts/decentralized_identity.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.file_deletion]
+path = 'contracts/file_deletion.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.gooo]
 path = 'contracts/gooo.clar'
 clarity_version = 2
