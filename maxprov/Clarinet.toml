@@ -25,6 +25,11 @@ path = 'contracts/decentralized_identity.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.event_logging]
+path = 'contracts/event_logging.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.file_deletion]
 path = 'contracts/file_deletion.clar'
 clarity_version = 2
