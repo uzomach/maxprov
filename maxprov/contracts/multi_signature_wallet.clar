@@ -191,3 +191,21 @@
 )
 
 ;; Get current proposal counter
+(define-read-only (get-proposal-counter)
+    (var-get proposal-counter)
+)
+
+;; Get wallet balance
+(define-read-only (get-balance)
+    (stx-get-balance (as-contract tx-sender))
+)
+
+;; Private Functions
+
+;; Helper function for adding owners during initialization
+(define-private (add-owner-fold (owner principal) (prev-result bool))
+    (begin
+        (map-set owners owner true)
+        true
+    )
+)
