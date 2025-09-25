@@ -45,6 +45,11 @@ path = 'contracts/impact_report.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.multi_send_with_recurring_payments]
+path = 'contracts/multi_send_with_recurring_payments.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.multi_signature_wallet]
 path = 'contracts/multi_signature_wallet.clar'
 clarity_version = 2
